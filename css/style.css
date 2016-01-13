@@ -6,6 +6,7 @@ html, body{
 }
 body{
 	background-color: #DEDEDE;
+	text-align: center;
 }	
 .container{
 	margin: auto;
@@ -15,7 +16,7 @@ body{
 	height: 100%;
 	background-color: #FFFFFF;
 }
-html>body .container {height: auto; min-height: 100%;}
+html>body .container {height: auto;}
 #header{
 	padding-top: 80px;
 	width: 100%;
@@ -29,6 +30,8 @@ h3{
 }
 #middle{
 	margin-top: 22px;
+    clear: both;
+    overflow: hidden;
 }
 .leftbar{
 	float: left;
@@ -93,7 +96,7 @@ h1 a.describe_1{
 	-o-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border-radius: 4px;
-	behavior: url(js/PIE.htc);
+	behavior: url(../js/PIE.htc);
 	font: bold 12px/28px Arial, Helvetica, sans-serif;
 	color: #FFFFFF;
 	text-align: center;
@@ -241,8 +244,7 @@ a.hot:hover{
 	text-align: center;
 }
 .like_tur li{
-	margin-top: 1px;
-	margin: auto;
+	margin: 1px auto 0;
 	padding: 0 10px;
 }
 .like_tur li:first-child{
